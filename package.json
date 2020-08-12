@@ -1,0 +1,26 @@
+{
+  "name": "jira-dialog",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Slack app that creates JIRA tickets based on dialog inputs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "debug": "node --nolazy --inspect-brk=9229 src/index.js"
+  },
+  "author": "Zoheb Nawaz <zohebzameer@gmail.com>",
+  "engines": {
+    "node": ">=4.2.0",
+    "npm": ">=2.14.7"
+  },
+  "dependencies": {
+    "axios": "^0.16.0",
+    "body-parser": "^1.17.1",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "jira-client": "^6.4.1",
+    "jira-connector": "^2.7.0",
+    "request": "^2.85.0"
+  }
+}

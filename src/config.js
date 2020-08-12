@@ -1,0 +1,8 @@
+module.exports = {
+    SLACK_ACCESS_TOKEN: 'xoxp-',
+    PORT: 3000,
+    SLACK_VERIFICATION_TOKEN: '',
+	SLACK_USERNAME: '',
+	SLACK_PASSWORD: '',
+	SLACK_HOST: ''
+}
